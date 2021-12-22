@@ -4,7 +4,6 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 
 import java.util.Objects;
 
-@JacksonXmlRootElement(localName = "students")
 public class Student {
 
     private String name;
